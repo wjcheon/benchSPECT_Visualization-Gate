@@ -1,0 +1,17 @@
+# TABLE
+# Create the table volume
+##
+/gate/world/daughters/name table
+/gate/world/daughters/insert box
+/gate/table/geometry/setXLength 0.6 cm
+/gate/table/geometry/setYLength 8. cm
+/gate/table/geometry/setZLength 34. cm
+/gate/table/placement/setRotationAxis 0 0 1
+/gate/table/placement/setRotationAngle 90 deg
+/gate/table/placement/setTranslation 0. -5.3 0. cm
+/gate/table/moves/insert translation
+/gate/table/translation/setSpeed 0 0 0.04 cm/s
+/gate/table/setMaterial Glass
+/gate/table/vis/setColor grey
+
+

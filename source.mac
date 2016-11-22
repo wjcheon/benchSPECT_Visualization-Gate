@@ -1,0 +1,11 @@
+# SOURCE
+# Add an extra object for source confinement
+##
+/gate/Phantom/daughters/name movsource
+/gate/Phantom/daughters/insert cylinder
+/gate/movsource/geometry/setRmax 2.  cm
+/gate/movsource/geometry/setRmin 0. cm
+/gate/movsource/geometry/setHeight 5. cm
+/gate/movsource/placement/setTranslation 0. 0. -6. cm
+/gate/movsource/setMaterial Water
+/gate/movsource/vis/setColor magenta

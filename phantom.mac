@@ -1,0 +1,17 @@
+
+# PHANTOM
+# Create the phantom volume
+##
+/gate/world/daughters/name Phantom
+/gate/world/daughters/insert cylinder
+/gate/Phantom/geometry/setRmax 5.  cm
+/gate/Phantom/geometry/setRmin 0. cm
+/gate/Phantom/geometry/setHeight 20. cm
+/gate/Phantom/placement/setTranslation 0. 0. -6. cm
+/gate/Phantom/moves/insert translation
+/gate/Phantom/translation/setSpeed 0 0 0.04 cm/s
+/gate/Phantom/setMaterial Water
+/gate/Phantom/vis/setColor blue
+/gate/Phantom/vis/forceWireframe
+
+

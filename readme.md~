@@ -6,7 +6,7 @@ Gate example : benchSPECT
 if you want to visualization geometry that you made 
 ">> Gate --qt"  
 in session  
-"/control/execute visual_qt.mac"   
+>> /control/execute visual_qt.mac   
 
 
 
